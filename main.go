@@ -13,5 +13,5 @@ func main() {
 	y :=x/ 3
 	z:=50
 
-	fmt.Print(y)
+	fmt.Println(y)
 }
