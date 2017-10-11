@@ -13,7 +13,10 @@ func main() {
 	y :=x/ 3
 	z:=50
 
-	a := myStruct{myVar:2, myOtherVar:"two"}
+	a := myStruct{
+		myVar:2,
+		myOtherVar:"two"
+	}
 	b := a.myVar
 	c := b+2
 
