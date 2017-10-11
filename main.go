@@ -13,5 +13,10 @@ func main() {
 	y :=x/ 3
 	z:=50
 
-	fmt.Println(y)
+	a := myStruct{myVar:2, myOtherVar:"two"}
+	b := a.myVar
+	c := b+2
+
+
+	fmt.Println(y * c)
 }
