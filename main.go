@@ -11,11 +11,10 @@ func main() {
 	x:=100
 	x*=2
 	y :=x/ 3
-	z:=50
 
 	a := myStruct{
 		myVar:2,
-		myOtherVar:"two"
+		myOtherVar:"two",
 	}
 	b := a.myVar
 	c := b+2
