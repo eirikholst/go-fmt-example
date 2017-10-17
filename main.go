@@ -16,8 +16,6 @@ func main(){
 		myVar:2,
 		myOtherVar:"two",
 	}
-	b := a.myVar
-	c := b+2
 
-	fmt.Println(y * c)
+	fmt.Println(y * a.myVar)
 }
