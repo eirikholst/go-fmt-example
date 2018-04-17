@@ -7,15 +7,18 @@ type myStruct struct {
 	myOtherVar string
 }
 
+
+
 func main(){
 	x	:=	100
 	x	*=2
 	y:=x/3
 
-	a := myStruct {
-		myVar:2,
-		myOtherVar:"two",
+
+	a := myStruct{
+		myVar: 2,
+		myOtherVar: "two",
 	}
 
-	fmt.Println(y * a.myVar)
+	fmt.Println( y *	a.myVar );
 }
